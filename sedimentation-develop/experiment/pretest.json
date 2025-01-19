@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. Which law governs the rate of settling of particles in a fluid during sedimentation?",
+      "answers": {
+        "a": "Newton's Law",
+        "b": "Hooke's Law",
+        "c": "Stokes' Law",
+        "d": "Bernoulli’s Equation"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. What is the function of the Andresen pipette in the sedimentation method?",
+      "answers": {
+        "a": "To agitate the suspension for better mixing.",
+        "b": "To measure the height of the suspension.",
+        "c": "To collect sediment at specified time intervals.",
+        "d": "To measure the viscosity of the liquid."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What is Stokes' Law used for in the sedimentation method?",
+      "answers": {
+        "a": "To calculate the concentration of the suspension.",
+        "b": "To determine the settling velocity of particles based on their size.",
+        "c": "To collect sediment at specified time intervals.",
+        "d": "To estimate the total volume of the suspension."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which of the following liquids is commonly used as a medium in sedimentation methods?",
+      "answers": {
+        "a": "Oil",
+        "b": "Water",
+        "c": "Mercury",
+        "d": "Alcohol"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. Why is it important to ensure that the suspension is well-mixed before starting the sedimentation experiment?",
+      "answers": {
+        "a": "To increase the density of the suspension.",
+        "b": "To prevent particles from clumping together and forming aggregates.ter",
+        "c": "To reduce the viscosity of the liquid.ry",
+        "d": "To improve the sensitivity of the pipette."
+      },
+      "explanations": {
+        "a": "Explanation 2  <a href='www.google.com'>here</a>",
+        "b": "Explanation 1",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

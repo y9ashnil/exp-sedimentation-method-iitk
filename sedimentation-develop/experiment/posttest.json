@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "1. What is the primary principle behind the sedimentation method for determining particle size distribution?",
+      "answers": {
+        "a": "The rate of particle settling is inversely proportional to the particle size.",
+        "b": "The rate of particle settling is proportional to the square of the particle size.",
+        "c": "The rate of particle settling is proportional to the particle shape.",
+        "d": "The rate of particle settling is independent of the particle size.nswer4"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "2. During sedimentation, if two particles of different sizes are present in the same suspension, which of the following statements is correct?",
+      "answers": {
+        "a": "The larger particles settle faster than the smaller ones.er1",
+        "b": "The smaller particles settle faster than the larger ones.",
+        "c": "The rate of sedimentation of particles is the same, regardless of size.",
+        "d": "All particles settle at the same rate, but in different amounts"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "3. What is the function of the Andresen pipette in this sedimentation experiment?",
+      "answers": {
+        "a": "To stir the suspension continuously.",
+        "b": "To collect sediment at specific intervals during the experiment.",
+        "c": "To measure the viscosity of the liquid.",
+        "d": "To analyze the shape of particles.er4"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "4. Which of the following best describes how Stokes' Law is applied in the sedimentation method?",
+      "answers": {
+        "a": "It is used to calculate the volume of sediment collected.",
+        "b": "It is used to relate the settling velocity of a particle to its size and the fluid's properties.",
+        "c": "It describes how particles dissolve in the liquid.",
+        "d": "It helps in determining the density of the liquid."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "5. What does the particle size distribution curve obtained from sedimentation data represent?",
+      "answers": {
+        "a": "The total mass of particles in the sample.",
+        "b": "The percentage of particles within specific size ranges.",
+        "c": "The viscosity of the liquid medium.",
+        "d": "The number of particles present in the suspension."
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    }
+  ]
+}

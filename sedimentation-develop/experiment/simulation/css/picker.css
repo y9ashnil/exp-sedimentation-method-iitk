@@ -1,0 +1,132 @@
+/* body {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+} */
+
+.picker {
+  width: fit-content;
+  /* height: fit-content; */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: rotate(90deg);
+  left: calc(150px * var(--scale));
+  top: calc(100px * var(--scale));
+}
+
+.length {
+  height: calc(500px * var(--scale));
+  width: calc(10px * var(--scale));
+  /* background-color: grey; */
+  /* background-color: #c7e1ff; */
+  background-color: rgba(189, 195, 199, 0.4);
+  position: relative;
+  overflow: hidden;
+  border-bottom-right-radius: 100px;
+}
+
+.length > .sediment {
+  background-image: url("../images/sediment-soil.jpg");
+  background-size: contain;
+  background-origin: border-box;
+  height: 100%;
+  position: relative;
+  z-index: -1;
+  bottom: calc(-500px * var(--scale));
+}
+
+/* .length::after {
+  content: "";
+  position: absolute;
+  background: white;
+  aspect-ratio: 1;
+  border-radius: 20%;
+  rotate: 45deg;
+  height: 50px;
+  width: 50px;
+  bottom: -36px;
+} */
+
+.bulb {
+  height: calc(75px * var(--scale));
+  width: calc(45px * var(--scale));
+  position: absolute;
+  top: calc(30px * var(--scale));
+  /* background-color: grey; */
+  /* background-color: #c7e1ff; */
+  background-color: rgba(189, 195, 199, 0.6);
+  border-radius: 35px;
+}
+
+.adjuster {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: calc(130px * var(--scale));
+}
+
+.pin {
+  height: calc(5px * var(--scale));
+  width: calc(70px * var(--scale));
+  background-color: grey;
+  /* background-color: #c7e1ff; */
+  position: absolute;
+  left: calc(-40px * var(--scale));
+  /* z-index: 1; */
+}
+
+.shell {
+  height: calc(10px * var(--scale));
+  width: calc(50px * var(--scale));
+  position: absolute;
+  background-color: grey;
+  /* background-color: #c7e1ff; */
+  /* z-index: -1; */
+  left: calc(-20px * var(--scale));
+  overflow: hidden;
+}
+
+/* .shell::before{
+    content: "";
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    left: -5px;
+    top: 4px;
+} */
+
+.screw {
+  width: calc(20px * var(--scale));
+  height: calc(20px * var(--scale));
+  background-color: grey;
+  /* background-color: #c7e1ff; */
+  position: absolute;
+  left: calc(15px * var(--scale));
+  border-radius: 50%;
+}
+
+@keyframes fillPicker {
+  0% {
+    bottom: calc(-500px * var(--scale));
+  }
+
+  100% {
+    bottom: calc(-200px * var(--scale));
+  }
+}
+
+@keyframes emptyPicker {
+  0% {
+    bottom: calc(-200px * var(--scale));
+  }
+
+  100% {
+    bottom: calc(-500px * var(--scale));
+  }
+}

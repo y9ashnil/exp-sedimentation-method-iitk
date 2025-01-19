@@ -1,0 +1,93 @@
+.microwave {
+  border: 10px solid rgb(0, 130, 130);
+  border-radius: 5px;
+  width: calc(500px * var(--scale));
+  height: calc(300px * var(--scale));
+  /* background-color: silver; */
+  /* background-color: #808080; */
+  background: linear-gradient(315deg, #7e7e7e 0%, #e3e3e3 50%, #787878 100%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.microwave > .store {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+}
+
+.microwave .window {
+  border: 13px solid black;
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  /* background: linear-gradient(to right, #656565, #131313, #656565); */
+  background: linear-gradient(to right, #434343 0%, black 100%);
+  border-radius: 10px;
+  width: calc(275px * var(--scale));
+  height: calc(175px * var(--scale));
+}
+
+.microwave > .controls {
+  display: flex;
+  height: 100%;
+  width: 30%;
+  flex-direction: column;
+  border-left: 2px solid black;
+  align-items: center;
+  padding: 10px;
+  gap: 40px;
+}
+
+.microwave .display {
+  border: 5px solid black;
+  /* background-color: rgba(0, 0, 0, 0.6); */
+  background: linear-gradient(to right, #434343 0%, black 100%);
+  border-radius: 5px;
+  width: calc(100px * var(--scale));
+  height: calc(70px * var(--scale));
+}
+
+.microwave .knob {
+  margin-top: 20px;
+  aspect-ratio: 1;
+  width: calc(60px * var(--scale));
+  background: conic-gradient(#787878, #e3e3e3, #787878, #e3e3e3, #787878);
+  box-shadow: -3px 3px 10px black;
+  /* border: ; */
+  border-radius: 50%;
+}
+
+.microwave .lights {
+  display: flex;
+  justify-content: space-around;
+  gap: calc(35px * var(--scale));
+  /* width: 80px; */
+  /* height: 30px; */
+  /* background-color: red; */
+}
+
+.lights > * {
+  aspect-ratio: 1;
+  width: calc(20px * var(--scale));
+  border-radius: 50%;
+  /* background-color: red; */
+  /* margin-right: 5px; */
+}
+
+.lights > .red-light {
+  /* background-color: red; */
+  background: radial-gradient(
+    /* circle at 81.9% 53.5%, */ circle at 10% 20%,
+    rgb(240, 60, 60) 16.3%,
+    /* rgb(173, 53, 53) 100.2% */ rgb(80, 17, 17) 100.2%
+  );
+}
+
+.lights > .blue-light {
+  /* background-color: blue; */
+  background: radial-gradient(
+    circle at 10% 20%,
+    rgb(55, 209, 255) 0%,
+    rgb(14, 31, 111) 100.2%
+  );
+}

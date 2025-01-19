@@ -1,0 +1,79 @@
+.weight-image {
+  height: calc(200px * var(--scale));
+}
+
+.weighing_balance {
+  position: relative;
+  /* margin-bottom: 40px; */
+  /* border: 2px solid black; */
+}
+
+.weighing_balance > .display {
+  position: absolute;
+  top: 57%;
+  left: 25%;
+  background-color: #5dbf52;
+  height: 33%;
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 10px; */
+  font-size: calc(3rem * var(--scale));
+}
+
+.display_off {
+  background-color: darkgreen;
+  color: darkgreen;
+  pointer-events: none;
+}
+
+.weigh_area {
+  position: absolute;
+  width: 30%;
+  height: 30%;
+  /* background-color: grey; */
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  opacity: 0;
+}
+
+.weigh_area > img {
+  width: 100%;
+}
+
+/* .btn {
+  height: 100px;
+  width: 100px;
+  background-color: #cfcfcf; */
+/* position: absolute; */
+/* border-radius: 10px;
+  bottom: 20%; */
+/* border: 2px solid grey; */
+/* font-weight: bold; */
+/* color: black;
+  cursor: pointer;
+} */
+
+.btn {
+  position: absolute;
+  bottom: 20%;
+  /* background-color: rgb(36, 82, 189); */
+}
+
+.btn1 {
+  left: 13%;
+}
+
+.btn1 > img {
+  width: calc(20px * var(--scale));
+}
+
+.btn2 {
+  right: 13%;
+}
+
+.btn2 > img {
+  width: calc(20px * var(--scale));
+}
